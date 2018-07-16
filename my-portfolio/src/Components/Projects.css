@@ -1,0 +1,206 @@
+#wrapper {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  
+}
+
+.wrap {
+  height: 290px;
+  width: 365px;
+  position: relative;
+  background-color: #b3e6ff;
+  border-radius: 80px;
+  display: inline-block;
+  padding: 35px 35px 30px 30px;
+  margin-left: 15px;
+  margin-top: 33px;
+}
+.project_image {
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  transform: 2s ease;
+  border-radius: 80px;
+  box-shadow: 0px 0px 45px 6px;
+  background-color: white;
+  
+}
+.project_info {
+  display: block;
+  
+}
+.main_info1 {
+  position: absolute;
+  top: 20%;
+  left: 8%;
+  opacity: 0;
+  text-align: center;
+  word-wrap: break-word;
+ }
+.specific_info1 {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  opacity: 0;
+  text-align: center;
+  word-wrap: break-word;
+
+  
+}
+.main_info2 {
+  position: absolute;
+  top: 18%;
+  left: 0%;
+  opacity: 0;
+  text-align: center;  
+}
+.specific_info2 {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  opacity: 0;
+  text-align: center;
+}
+.main_info3 {
+  position: absolute;
+  top: 22%;
+  left: 3%;
+  opacity: 0;
+  text-align: center;
+
+}
+.specific_info3 {
+  position: absolute;
+  top: 55%;
+  left: 9%;
+  opacity: 0;
+  text-align: center;
+
+}
+.main_info4 {
+  position: absolute;
+  top: 22%;
+  left: 15%;
+  opacity: 0;
+  text-align: center;
+
+}
+.specific_info4 {
+  position: absolute;
+  top: 55%;
+  left: 6.5%;
+  opacity: 0;
+  text-align: center;
+
+}
+.main_info5 {
+  position: absolute;
+  top: 22%;
+  left: 9%;
+  opacity: 0;
+  text-align: center;
+
+}
+.specific_info5 {
+  position: absolute;
+  top: 55%;
+  left: 2.5%;
+  opacity: 0;
+  text-align: center;
+
+}
+#title {
+  display: block;
+  font-size: 35px;
+}
+#details {
+  display: block;
+  font-size: 16px;
+  word-wrap: break-word;
+}
+.wrap:hover .project_image {
+  filter: blur(10px);
+}
+.wrap:hover .main_info1 {
+  opacity: 1;
+}
+.wrap:hover .specific_info1 {
+  opacity: 1;
+}
+.wrap:hover .main_info2 {
+  opacity: 1;
+}
+.wrap:hover .specific_info2 {
+  opacity: 1;
+}
+.wrap:hover .main_info3 {
+  opacity: 1;
+}
+.wrap:hover .specific_info3 {
+  opacity: 1;
+}
+.wrap:hover .main_info4 {
+  opacity: 1;
+}
+.wrap:hover .specific_info4 {
+  opacity: 1;
+}
+.wrap:hover .main_info5 {
+  opacity: 1;
+}
+.wrap:hover .specific_info5 {
+  opacity: 1;
+}
+#pageTitle {
+  font-family: "Monotype Corsiva";
+  color: black;
+  font-size: 75px;
+  display: block;
+  margin-top: 45px;
+}
+#banner{
+  overflow: hidden;
+  background-color: rgb(243, 243, 243);
+  height: 200px;
+}
+#pagesubTitle {
+  font-family: cursive;
+  color: black;
+  margin-top: -5px;
+  font-family: "Times New Roman", Times, serif;
+}
+#imageLink {
+  text-decoration: none;
+  color: black;
+}
+#github {
+  height: 130px;
+  width: 130px;
+  border-radius: 100px;
+  box-shadow: 0px 0px 55px 1px;
+  position: absolute;
+  left: 1100px;
+  top: 22px;
+  
+}
+#github_img {
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+}
+#github:hover {
+  box-shadow: 0px 0px 55px 5px;
+}
+#visit {
+  font-size: 17px;
+  opacity: 0;
+}
+#github:hover #visit {
+  opacity: 1;
+}
+#toGit {
+  text-decoration: none;
+  color: black;
+}

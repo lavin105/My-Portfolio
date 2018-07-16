@@ -1,0 +1,14 @@
+#resume{
+    height: 700px;
+    width: 42%;
+    box-shadow: 0px 0px 55px 5px;
+    border: 0;
+    margin-top:30px;
+}
+#page_title {
+    font-family: "Monotype Corsiva";
+    color: black;
+    font-size: 75px;
+    display: block;
+    margin-top: 45px;
+  }
