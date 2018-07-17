@@ -3,43 +3,61 @@ import "./Contact.css";
 import GithubLogo from "./Images/GitHubLogo.png";
 import gmail from "./Images/gmail.png";
 import phone from "./Images/phone.png";
+import linked from "./Images/linkedinlogo.jpg";
 
 class Contact extends Component {
   render() {
     return (
       <div id="theWrapper">
-      
         <header id="banner">
           <h1 id="pageTitle">Contact Information</h1>
         </header>
-        <div id="contain">
-        <div id="information1">
-          <div id="gmail">
-            <img alt="" id="gmail_img" src={gmail} />
-            <div id="email">
-              <h1 id="email_info">brandonlavinsky@gmail.com</h1>
+        <a id="contact_link" href="mailto:brandonlavinsky@gmail.com">
+          <div id="holder1">
+            <div id="imgHolder">
+              <img id="specific_image" src={gmail} alt="" />
+            </div>
+            <div id="textHolder">
+              <p id="cantact_info">brandonlavinsky@gmail.com</p>
             </div>
           </div>
-        </div>
-
-        <div id="information2">
-          <div id="phone">
-            <img alt="" id="phone_img" src={phone} />
-          </div>
-          <div id="number">
-            <h1 id="number_info">(310)-972-0622</h1>
-          </div>
-        </div>
-
-        <div id="information3">
-          <div id="github1">
-            <img alt="" id="github_img1" src={GithubLogo} />
-          </div>
-          <div id="git">
-              <h1 id="git_info">https://github.com/lavin105</h1>
+        </a>
+        <a id="contact_link">
+          <div id="holder2">
+            <div id="imgHolder">
+              <img id="specific_image" src={phone} alt="" />
             </div>
-        </div>
-        </div>
+            <div id="textHolder">
+              <p id="cantact_info">(310)-972-0622</p>
+            </div>
+          </div>
+        </a>
+        <a id="contact_link" href="https://github.com/lavin105">
+          <div id="holder3">
+            <div id="imgHolder">
+              <img id="specific_image" src={GithubLogo} alt="" />
+            </div>
+            <div id="textHolder">
+              <p id="cantact_info">https://github.com/lavin105</p>
+            </div>
+          </div>
+        </a>
+        <a
+          id="contact_link"
+          href="https://www.linkedin.com/in/brandon-lavinsky-6bb2b4133/"
+        >
+          <div id="holder3">
+            <div id="imgHolder">
+              <img id="specific_image" src={linked} alt="" />
+            </div>
+            <div id="textHolder">
+              <p id="cantact_info">Brandon Lavinsky</p>
+            </div>
+          </div>
+        </a>
+        <h1>
+          <br />
+        </h1>
       </div>
     );
   }

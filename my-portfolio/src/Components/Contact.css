@@ -5,131 +5,63 @@
   display: block;
   margin-top: 45px;
 }
-#contain{
-  padding: 50px;
-}
-#information1 {
-  height: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-
-  margin-top: 0px;
-  text-align: right;
-  display: block;
-  font-family: "Monotype Corsiva";
-  font-size: 22px;
-  padding: 20px;
-
-}
-#information2 {
-  height: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-
-  margin-top: 0px;
-  text-align: right;
-  font-family: "Monotype Corsiva";
-  font-size: 22px;
-  padding: 20px;
-}
-#information3 {
-  height: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-
-  margin-top: 0px;
-  text-align: right;
-  font-family: "Monotype Corsiva";
-  font-size: 22px;
-  padding: 20px;
-}
-#banner{
-  overflow: hidden;
-  background-color: rgb(243, 243, 243);
-  height: 200px;
-}
-#github1 {
-  height: 90px;
-  width: 90px;
-  border-radius: 100px;
-  box-shadow: 0px 0px 55px 1px;
-  background-color: white;
-  margin-left: 30px;
-  margin-top: 3px;
-}
-#github_img1 {
-  height: 100%;
-  width: 100%;
-  border-radius: 100px;
-}
-#github1:hover {
-  box-shadow: 0px 0px 55px 5px;
-}
-
-#gmail {
-  height: 90px;
-  width: 90px;
-  border-radius: 100px;
-  box-shadow: 0px 0px 55px 1px;
-  background-color: white;
-  margin-left: 30px;
-  margin-top: 3px;
-}
-#gmail_img {
-  height: 100%;
-  width: 100%;
-  border-radius: 100px;
-}
-#gmail:hover {
-  box-shadow: 0px 0px 55px 5px;
-}
-#phone {
-  height: 90px;
-  width: 90px;
-  border-radius: 100px;
-  box-shadow: 0px 0px 55px 1px;
-  background-color: white;
-  margin-left: 30px;
-  margin-top: 3px;
-}
-#phone_img {
-  height: 100%;
-  width: 100%;
-  border-radius: 100px;
-}
-#phone:hover {
-  box-shadow: 0px 0px 55px 5px;
-}
-#email {
-  display: block;
-}
-#email_info {
-  position: absolute;
-  top: 36%;
-  left: 38%;
-}
-#number {
-  display: block;
-}
-#number_info {
-  position: absolute;
-  top: 55%;
-  left: 38%;
-}
-#git {
-  display: block;
-}
-#git_info {
-  position: absolute;
-  top: 76%;
-  left: 38%;
-}
 #theWrapper {
-  position: absolute;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+}
+#holder1{
+  padding-top: 60px;
+  margin-left:auto;
+  margin-right: auto;
+  width:50%;
+  display: inline-block
+}
+#holder2{
+  padding-top: 30px;
+  margin-left:auto;
+  margin-right: auto;
+  width:50%;
+  display: inline-block
+
+}
+#holder3{
+  padding-top: 30px;
+  margin-left:auto;
+  margin-right: auto;
+  width:50%;
+  display: inline-block
+
+}
+
+#imgHolder {
+  height: 110px;
+  width: 110px;
+  border-radius: 100px;
+  box-shadow: 0px 0px 55px 1px;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: white;
+  
+}
+
+#imgHolder:hover {
+  
+  box-shadow: 0px 0px 55px 5px;
+  
+  
+}
+#specific_image {
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+}
+#textHolder{
+  display: inline;
+  font-size: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#contact_link{
+  text-decoration: none;
+  color:black;
 }
