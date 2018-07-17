@@ -12,13 +12,24 @@ class Contact extends Component {
         <header id="banner">
           <h1 id="pageTitle">Contact Information</h1>
         </header>
-        <a id="contact_link" href="mailto:brandonlavinsky@gmail.com">
+        <a id="contact_link" href="https://mail.google.com/mail/">
           <div id="holder1">
             <div id="imgHolder">
               <img id="specific_image" src={gmail} alt="" />
             </div>
             <div id="textHolder">
               <p id="cantact_info">brandonlavinsky@gmail.com</p>
+            </div>
+          </div>
+        </a>
+
+        <a id="contact_link" href="https://github.com/lavin105">
+          <div id="holder3">
+            <div id="imgHolder">
+              <img id="specific_image" src={GithubLogo} alt="" />
+            </div>
+            <div id="textHolder">
+              <p id="cantact_info">https://github.com/lavin105</p>
             </div>
           </div>
         </a>
@@ -29,16 +40,6 @@ class Contact extends Component {
             </div>
             <div id="textHolder">
               <p id="cantact_info">(310)-972-0622</p>
-            </div>
-          </div>
-        </a>
-        <a id="contact_link" href="https://github.com/lavin105">
-          <div id="holder3">
-            <div id="imgHolder">
-              <img id="specific_image" src={GithubLogo} alt="" />
-            </div>
-            <div id="textHolder">
-              <p id="cantact_info">https://github.com/lavin105</p>
             </div>
           </div>
         </a>
