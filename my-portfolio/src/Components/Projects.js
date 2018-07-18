@@ -24,7 +24,7 @@ class Projects extends Component {
         <header id='banner'>
           <h1 id="pageTitle">My Projects</h1>
           </header>
-
+          <a id="imageLink" href="https://github.com/lavin105/ReactJSPortfolioWebApp">
           <div className="wrap">
             <img className="project_image" src={ReactLogo} alt="" />
             <div className="project_info">
@@ -42,6 +42,7 @@ class Projects extends Component {
               </div>
             </div>
           </div>
+          </a>
 
           <a id="imageLink" href="https://github.com/lavin105/HousingDatabase">
             <div className="wrap">
